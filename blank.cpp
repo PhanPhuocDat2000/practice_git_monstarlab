@@ -4,7 +4,7 @@
 
 int main()
 {
-    cout << "ahihi" << endl;
+    cout << "Cu thich tao conflict" << endl;
 
     return 0;
 }
