@@ -29,6 +29,8 @@ void phanso::quydong(phanso &b)
         b.tu *= temp.mau;
         b.mau *= temp.mau;
     }
+    cout << this->tu << "\n-\n" << this->mau << "\n";
+    cout << b.tu << "\n-\n" << b.mau << "\n";
 }
 
 istream& operator>>(istream& stream, phanso &ps)

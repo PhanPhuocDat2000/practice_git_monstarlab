@@ -10,8 +10,6 @@ int main()
     cin >> x;
     cin >> y;
     x.quydong(y);
-    cout << x;
-    cout << y;
 
     return 0;
 }
