@@ -4,7 +4,7 @@
 
 int main()
 {
-    cout << "ahihi" << endl;
+    cout << "In ra cai gi do" << endl;
 
     return 0;
 }
