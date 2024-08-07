@@ -11,5 +11,9 @@ int main()
     cin >> y;
     x.quydong(y);
 
+    phanso a,b;
+    cin >> a;
+    cin >> b;
+
     return 0;
 }
