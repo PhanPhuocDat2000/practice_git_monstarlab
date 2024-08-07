@@ -1,1 +1,1 @@
-//Khong co gi trong day het
+#include <stdio.h>
