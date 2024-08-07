@@ -5,14 +5,13 @@ using namespace std;
 
 int main()
 {
-    phanso a,b,s;
+    phanso x, y;
 
-    cin >> a;
-    cout << a;
-    cin >> b;
-    cout << b;
-    s = a * b;
-    cout << s;
+    cin >> x;
+    cin >> y;
+    x.quydong(y);
+    cout << x;
+    cout << y;
 
     return 0;
 }

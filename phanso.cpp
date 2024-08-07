@@ -18,6 +18,19 @@ int phanso::get_mau()
     return mau;
 }
 
+void phanso::quydong(phanso &b)
+{
+    if(this->mau != b.mau)
+    {
+        phanso temp = *this;
+        this->tu *= b.mau;
+        this->mau *= b.mau;
+
+        b.tu *= temp.mau;
+        b.mau *= temp.mau;
+    }
+}
+
 istream& operator>>(istream& stream, phanso &ps)
 {
     stream >> ps.tu;
